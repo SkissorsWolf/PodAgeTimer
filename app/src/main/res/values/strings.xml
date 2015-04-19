@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PodAgeTimer</string>
+    <string name="title_activity_pod_age_timer_welcome">Pod Age Portal Timer</string>
+    <string name="again">again</string>
+    <string name="adapted">Adapted for Android by:</string>
+    <string name="me">Skissors_Wolf</string>
+    <string name="original">Original by: Nadnerb</string>
+    <string name="URI">http://urulive.guildaxis.net/?page_id=147</string>
+    <string name="FCA">Myst (TM) is the sole property of Cyan Worlds Inc. Copyright 2013 Cyan Worlds, Inc. All Rights reserved. Used with Permission.</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pod_age_timer_main">Pod Age Portal Timer</string>
+    <string name="Title">Pod Age Portal Timer</string>
+</resources>
