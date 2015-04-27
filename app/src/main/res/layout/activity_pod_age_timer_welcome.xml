@@ -24,7 +24,8 @@
         android:id="@+id/txtFCA"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:textColor="#ffffa944" />
+        android:textColor="#ffffa944"
+        android:typeface="sans" />
 
     <Button
         android:layout_width="wrap_content"

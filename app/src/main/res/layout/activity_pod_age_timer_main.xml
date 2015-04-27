@@ -4,6 +4,106 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="net.skissorswolf.podagetimer.PodAgeTimerMain">
+    tools:context="net.skissorswolf.podagetimer.PodAgeTimerMain"
+    android:background="#ff000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Negilahn"
+        android:id="@+id/txtNegilahn"
+        android:textColor="#FFFFA944"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_until_next"
+        android:id="@+id/txtNextPortal1"
+        android:layout_below="@+id/txtNegilahn"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Dereno"
+        android:id="@+id/txtDereno"
+        android:layout_marginTop="71dp"
+        android:textColor="#FFFFA944"
+        android:layout_below="@+id/txtNextPortal1"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Payiferen"
+        android:id="@+id/txtPayiferen"
+        android:textColor="#FFFFA944"
+        android:layout_marginTop="68dp"
+        android:layout_below="@+id/txtNextPortal2"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Tetsonot"
+        android:id="@+id/txtTetsonot"
+        android:layout_marginTop="69dp"
+        android:textColor="#FFFFA944"
+        android:layout_below="@+id/txtNextPortal3"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Eder_Gira"
+        android:id="@+id/txtEderGira"
+        android:textColor="#FFFFA944"
+        android:layout_marginTop="73dp"
+        android:layout_below="@+id/txtNextPortal4"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_until_next"
+        android:id="@+id/txtNextPortal2"
+        android:layout_below="@+id/txtDereno"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_until_next"
+        android:id="@+id/txtNextPortal3"
+        android:layout_below="@+id/txtPayiferen"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_until_next"
+        android:id="@+id/txtNextPortal4"
+        android:layout_below="@+id/txtTetsonot"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sunrise"
+        android:id="@+id/txtNextSunrise"
+        android:layout_below="@+id/txtEderGira"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffffff" />
 
 </RelativeLayout>

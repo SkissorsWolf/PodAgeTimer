@@ -6,8 +6,15 @@
     <string name="me">Skissors_Wolf</string>
     <string name="original">Original by: Nadnerb</string>
     <string name="URI">http://urulive.guildaxis.net/?page_id=147</string>
-    <string name="FCA">Myst (TM) is the sole property of Cyan Worlds Inc. Copyright 2013 Cyan Worlds, Inc. All Rights reserved. Used with Permission.</string>
+    <string name="FCA">Myst™ is the sole property of Cyan Worlds Inc. Copyright 2013 Cyan Worlds, Inc. All Rights reserved. Used with Permission.</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_pod_age_timer_main">Pod Age Portal Timer</string>
     <string name="Title">Pod Age Portal Timer</string>
+    <string name="time_until_next">Time until next portal:</string>
+    <string name="Negilahn">Negilahn Time</string>
+    <string name="Dereno">Dereno Time</string>
+    <string name="Payiferen">Payiferen Time</string>
+    <string name="Tetsonot">Tetsonot Time</string>
+    <string name="Eder_Gira">Eder Gira Sunrise</string>
+    <string name="sunrise">Time until next sunrise:</string>
 </resources>
