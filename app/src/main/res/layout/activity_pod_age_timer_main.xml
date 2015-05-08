@@ -106,4 +106,14 @@
         android:layout_alignParentStart="true"
         android:textColor="#ffffffff" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/txtTest"
+        android:layout_below="@+id/txtNextPortal1"
+        android:layout_alignEnd="@+id/txtDereno"
+        android:layout_marginTop="22dp"
+        android:textColor="#ffffffff" />
+
 </RelativeLayout>
