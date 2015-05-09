@@ -28,7 +28,7 @@ public class timers {
         int iMinutes = (int)dMinutes;
         int iSeconds = (int)dSeconds;
 
-        String sHours = Integer.toString(iHours);
+        String sHours = Integer.toString(iHours % 24);
         String sMinutes = Integer.toString(iMinutes);
         String sSeconds = Integer.toString(iSeconds);
 
@@ -43,6 +43,11 @@ public class timers {
         }
         String sTime = sHours + ":" + sMinutes + ":" + sSeconds;
         return sTime;
+    }
+
+    public long millisecondsSinceEpoch() {
+        long lTime = System.currentTimeMillis();
+        return lTime;
     }
 
     /* public String outputTime() {
