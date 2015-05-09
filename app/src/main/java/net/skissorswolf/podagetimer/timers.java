@@ -4,15 +4,10 @@ package net.skissorswolf.podagetimer;
  * Created by Skissors_Wolf on 5/8/2015.
  */
 
-// import java.util.Calendar;
-import android.os.SystemClock;
+
 
 
 public class timers {
-
-    // Calendar nDate = Calendar.getInstance();
-
-
 
     public String millisecondsToString() {
         long nDate = System.currentTimeMillis();
