@@ -40,10 +40,11 @@ public class timers {
         return sTime;
     }
 
-    public long millisecondsSinceEpoch() {
+    // Test Code
+    /* public long millisecondsSinceEpoch() {
         long lTime = System.currentTimeMillis();
         return lTime;
-    }
+    } */
 
     /* public String outputTime() {
        return millisecondsToString(sTime);
@@ -100,10 +101,10 @@ public class timers {
         now = new Date();
         nowM = millisecondsFromDate(now);
         negOffset = millisecondsFromDate(negInfo.firstTime) - nowM;
-        derOffset =;
-        payOffset =;
-        tetOffset =;
-        girOffset =;
+        derOffset = millisecondsFromDate(derInfo.firstTime) - nowM;
+        payOffset = millisecondsFromDate(payInfo.firstTime) - nowM;
+        tetOffset = millisecondsFromDate(tetInfo.firstTime) - nowM;
+        girOffset = millisecondsFromDate(gerInfo.firstTime) - nowM;
         if(negOffset < 0) {
             negInfo = dateLoop(iterations, negStart, dayLength);
             negOffset = millisecondsFromDate(negInfo.firstTime) - nowM;

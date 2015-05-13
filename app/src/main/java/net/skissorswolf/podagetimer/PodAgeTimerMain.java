@@ -13,8 +13,8 @@ public class PodAgeTimerMain extends Activity {
 
         timers timersObj = new timers();
         String sTime = timersObj.millisecondsToString();
-        long lTime = timersObj.millisecondsSinceEpoch();
-        String nTime = String.valueOf(lTime);
+        // long lTime = timersObj.millisecondsSinceEpoch();
+        // String nTime = String.valueOf(lTime);
 
         TextView txtTest = (TextView) findViewById(R.id.txtTest);
         txtTest.setText(sTime);
